@@ -26,6 +26,8 @@ Link til bilder:
 # Inpirasjon:
 Skillbar: https://www.youtube.com/watch?v=EoN_4fv3T7A&t=176s&ab_channel=CascadingStyle
 
+Inspirasjon til design: https://www.youtube.com/watch?v=lgeoAUvoRJU
+
 
 
 
