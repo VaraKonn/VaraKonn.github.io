@@ -2,7 +2,7 @@
 Link: https://varakonn.github.io/
 
 # Beskrivelse
-Nettsiden er portfolio av meg. 
+Portfolio side av Varagan Konesan. 
 
 # Icons
 Her fikk jeg ikoner som jeg bruker gjennom nettsiden min:
