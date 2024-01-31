@@ -4,9 +4,12 @@ Link: https://varakonn.github.io/
 # Beskrivelse
 Portfolio side av Varagan Konesan. 
 
-# Icons
+# Icons og fonts
 Her fikk jeg ikoner som jeg bruker gjennom nettsiden min:
 link: https://fontawesome.com/
+
+Her fikk jeg fonts:
+Link: https://fonts.google.com/
 
 # Feil
 
