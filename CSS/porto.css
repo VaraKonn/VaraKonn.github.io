@@ -387,7 +387,7 @@ nav .fa-solid{
 
 @media screen and (max-width: 768px) {
     #header {
-        background-image: url(mobil.png);
+        background-image: url('../bilder/mobil.png');
         width: 100%;
     }
 
