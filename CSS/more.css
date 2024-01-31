@@ -1,0 +1,495 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppin', sans-serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #080808;
+    color: #fff;
+}
+#header{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.container{
+    padding: 10px 10%;
+
+}
+#header h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+    
+
+}
+
+/* Nav */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 140px;
+    border: #fff;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+#undsk{
+    font-size: 2.5em;
+    color: #ff004f;
+    margin-bottom: 40px;
+
+}
+
+/* Skole */
+
+.services-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr)) ;
+    grid-gap: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.services-list div{
+    background: #262626;
+    padding: 40px;
+    font-size: 15px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+    max-width: 100vh;
+    line-height: 1.75em;
+}
+
+.services-list div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+
+}
+.services-list div a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.services-list div:hover{
+    transform: translateY(-10px);
+}
+
+
+.services-list2{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.services-list2 div{
+    background: #262626;
+    padding: 40px;
+    font-size: 15px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+    max-width: 200vh;
+    line-height: 1.75em;
+}
+
+.services-list2 div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+
+}
+.services-list2 div a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.services-list2 div:hover{
+    background-color: #ff004f;
+    transform: translateY(-10px);
+}
+
+
+
+/* Bilder */
+
+.slideshow-container {
+    width: 100%;
+    max-width: 425px;
+    position: relative;
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    max-height: 720px;
+    height: 100%;
+  }
+
+ 
+.mySlides {
+    display: none;
+
+
+}
+
+
+#mai{
+    aspect-ratio: 1646/1398;
+}
+
+#bursdag{
+    aspect-ratio: 1086/1250;
+}
+
+#gruppebilde{
+    aspect-ratio: 621/1104;
+}
+
+
+#tusen{
+    aspect-ratio: 1390/1225;
+}
+
+.slide-image {
+    width: 100%; 
+    border-radius: 15px;
+    height: 70vh;
+
+}
+
+
+#prev, #next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+
+#next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+#prev:hover, #next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+
+.btn{
+    display: block;
+    margin: 30px 36.5px;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.5s;
+}
+
+.btn:hover{
+    background: #ff004f;
+}
+
+/* Oppnåelser */
+
+
+.portofolio{
+    padding: 50px 0;
+}
+
+.opp-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr)) ;
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.opp{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden; 
+}
+.opp img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+
+.layer{
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+}
+
+.layer h3{
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 18px;
+
+}
+
+.layer a{
+    margin-top: 20px;
+    color: #ff004f;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.opp:hover img{
+    transform: scale(1.1);
+}
+
+.opp:hover .layer{
+    height: 100%;
+}
+
+
+
+
+.mer-om-meg p{
+    font-size: 1.5em;
+    margin: auto;
+    text-align: center;
+    margin-top: 2em;
+}
+
+
+
+
+
+/* Footer */
+
+
+.footer{
+    background:#000;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    margin-top: 3em;
+}
+
+.footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+}
+
+.footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+}
+
+.footer .row a:hover{
+    color:#fff;
+}
+
+.footer .row ul{
+    width:100%;
+}
+
+.footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+}
+
+.footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+}
+    
+
+nav .fa-solid{
+    display: none;
+}
+
+
+
+/* Mobilversjon */
+
+@media screen and (max-width: 768px) {
+    #header {
+        width: 100%;
+    }
+
+    .header-tekst {
+        margin-top: 100%;
+        font-size: 16px;
+    }
+    .header-tekst h1 {
+        font-size: 30px;
+       
+    }
+    nav .fa-solid{
+        display: block;
+        font-size: 25px;
+    }
+    nav ul{
+        background: #ff004f;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        transition: right 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+
+    }
+    nav ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    .services-list div{
+        text-align: center;
+    }
+    .OverSk{
+        text-align: center;
+    }
+
+    .btn{
+        margin: 30px auto;
+    }
+
+    #prev, #next,.text {
+        font-size: 11px
+    }
+
+    .slide-image {
+        width: 100%; 
+        border-radius: 15px;
+        height: 50vh;
+    
+    }
+    .footer {
+        text-align: center;
+        padding: 5%;
+    }
+
+    .footer .row ul li {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .footer .row a i {
+        margin: 0% 3%;
+    }
+}
