@@ -8,7 +8,7 @@ Portfolio side av Varagan Konesan.
 Her fikk jeg ikoner som jeg bruker gjennom nettsiden min:
 link: https://fontawesome.com/
 
-# Bugs
+# Feil
 
 Det kan hende at bilde i header ikke fungerer i mobilversjonen. Jeg vet ikke hvorfor fordi bildet fungerer fra live server men ikke på Github nettsiden. Jeg har også linket til timeplan som jeg har laget for lenge siden. Derfor er designet, fargen og mobilversjonen litt rar/fungerer ikke.
 
