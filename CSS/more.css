@@ -478,6 +478,10 @@ nav .fa-solid{
         height: 50vh;
     
     }
+
+    #venner p{
+        font-size: 16px;
+    }
     .footer {
         text-align: center;
         padding: 5%;
