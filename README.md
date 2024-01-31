@@ -19,7 +19,7 @@ Link til bilder:
 •	https://freerangestock.com/photos/123048/learning-mathematics-formulas-.html
 
 
-Inpirasjon:
+# Inpirasjon:
 Skillbar: https://www.youtube.com/watch?v=EoN_4fv3T7A&t=176s&ab_channel=CascadingStyle
 
 
