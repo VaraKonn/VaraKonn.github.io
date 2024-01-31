@@ -1,5 +1,5 @@
 # VaraKonn.github.io
-Link: VaraKonn.github.io
+Link: https://varakonn.github.io/
 
 # Beskrivelse
 Nettsiden er portfolio av meg. 
