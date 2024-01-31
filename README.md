@@ -5,7 +5,7 @@ Link: https://varakonn.github.io/
 Nettsiden er portfolio av meg. 
 
 # Icons
-This is where I got icons, which i use throughout the website:
+Her fikk jeg ikoner som jeg bruker gjennom nettsiden min:
 link: https://fontawesome.com/
 
 # Bugs
@@ -21,7 +21,8 @@ Link til bilder:
 
 •	https://freerangestock.com/photos/123048/learning-mathematics-formulas-.html
 
-
+# Logo
+Jeg brukte https://www.canva.com/ til å lage logoen min.
 
 # Inpirasjon:
 Skillbar: https://www.youtube.com/watch?v=EoN_4fv3T7A&t=176s&ab_channel=CascadingStyle
