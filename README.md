@@ -27,10 +27,17 @@ Link til bilder:
 # Logo
 Jeg brukte https://www.canva.com/ til å lage logoen min.
 
+# Footer
+Her er linken for musikk videoen fra youtube som ble brukt i footer:
+
+Link: https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley
+
 # Inpirasjon:
 Skillbar: https://www.youtube.com/watch?v=EoN_4fv3T7A&t=176s&ab_channel=CascadingStyle
 
 Inspirasjon til design: https://www.youtube.com/watch?v=lgeoAUvoRJU
+
+
 
 
 
