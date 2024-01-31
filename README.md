@@ -16,8 +16,11 @@ Det kan hende at bilde i header ikke fungerer i mobilversjonen. Jeg vet ikke hvo
 Link til bilder:
 
 •	https://commons.wikimedia.org/wiki/File:Man_Doing_Warm_Up_Exercise_Cartoon.svg
+
 •	https://www.123rf.com/stock-photo/fruits_vegetables.html?orientation=2
+
 •	https://freerangestock.com/photos/123048/learning-mathematics-formulas-.html
+
 
 
 # Inpirasjon:
