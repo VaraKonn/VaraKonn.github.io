@@ -37,6 +37,8 @@ Skillbar: https://www.youtube.com/watch?v=EoN_4fv3T7A&t=176s&ab_channel=Cascadin
 
 Inspirasjon til design: https://www.youtube.com/watch?v=lgeoAUvoRJU
 
+Slideshow bilder:  https://www.w3schools.com/howto/howto_js_slideshow.asp
+
 
 
 
